@@ -1,2 +1,7 @@
 # hello-world
-my first use of github, helloworld test
+
+Hello World,
+
+This is Daniel, I'm shortly going to get another coffeeeeee!
+
+Cheers World!
