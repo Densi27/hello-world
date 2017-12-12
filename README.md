@@ -1,7 +1,3 @@
-# hello-world
+# helloJava
 
-Hello World,
-
-This is Daniel, I'm shortly going to get another coffeeeeee!
-
-Cheers World!
+This will be my growing helloJava project for trying out cool Java staff
