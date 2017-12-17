@@ -55,7 +55,15 @@ public class helloJava {
         Path path = Paths.get(outPath + pgmName + ".txt");
 
         try (BufferedWriter writer = Files.newBufferedWriter(path, StandardOpenOption.CREATE, StandardOpenOption.APPEND)) {
-            writer.write(line + "\n");
+            if (line.contains("XXX_REPLACEME_XXX"))
+            {
+                String newLine = line.replace("XXX_REPLACEME_XXX", pgmName);
+                writer.write(newLine + "\n");
+            }
+            else
+            {
+                writer.write(line + "\n");
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
